@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color:#708090 ;
+}
+#tracklist{
+    border: 2px #7fffd4;
+}
+
+#skipback.fas.fa-step-backward.fa-2x::before{
+    margin-right: 150px;
+}
+#skipfor.fas.fa-step-forward.fa-2x::before{
+    left: 155px;
+}
+
+#currenttrack{
+    background-color:#FFFFFF ;
+    font-size:18px;
+    border: 2px solid #000000;
+    
+}
+
+div, p{
+    text-align: center;
+}
+.disable{
+    display: none;
+}
+.able{
+    display: block;
+}
+
+#track5, #track4, #track3, #track2, #track1{
+    background-color: #7fffd4;
+    border: 2px solid #000000;
+}
+
+#note {
+    margin-top: 50px;
+}
+
+
+
+#musicicon {
+    
+    background-color: #7fffd4;
+    width: 250px;
+    height: 250px;
+    margin-left: 18%;
+    margin-bottom: 20px;
+}

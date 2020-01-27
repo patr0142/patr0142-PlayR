@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.algonquin.patr0142.playr2"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "com.algonquin.patr0142.playr2"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.algonquin.patr0142.playr2"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.algonquin.patr0142.playr2"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Playr</title>
+    </head>
+
+    <body>
+        
+        
+
+        <div id="track-list"> Library
+            <div id="to-play-screen"><i class="fas fa-sort-down fa-2x"></i></div>
+            <div id="track-screen"></div>
+        </div>
+
+        <div id="play-screen">
+            <div id="track-playing">Now Playing</div>
+            <i id="to-track-list" class="fas fa-sort-up fa-2x"></i> 
+            <div id="musicicon"><i id="note" class="fas fa-music fa-8x"></i></div>
+            
+            <div id="pause"><i class="far fa-pause-circle fa-2x"></i></div><div id="currenttrack"></div>
+
+            <div id="trackprogress"></div>
+            
+            
+        <div id="skipback"> <i class="fas fa-step-backward fa-2x"></i></div>
+        <div><i id="play" class="far fa-play-circle fa-4x"></i></div> 
+        <div> <i id="skipfor" class="fas fa-step-forward fa-2x"></i></div>
+        
+        </div> 
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="./js/main.js"></script>
+    </body>
+
+</html>
